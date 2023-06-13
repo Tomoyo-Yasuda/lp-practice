@@ -6,9 +6,50 @@
 .inner{
   width: 1100px;
 }
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.header-inner{
+
+}
+.inner a{
+  color: #ffffff;
+  background-color: cadetblue;
+  font-size: 12px;
+  padding: 12px 14px;
+}
+
+
 /* トップの編集 */
 .top-inner{
   background-image: url(../img/keyvisual/keyvisual.jpg);
   padding: 400px 0px 400px 0px;
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.container{
+  margin: 400px 0;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container h1{
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+}
+
+.container p{
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 30px;
 }
