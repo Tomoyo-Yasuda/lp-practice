@@ -15,14 +15,23 @@ li{
   list-style: none;
 }
 
+/* header設定 */
 .header-inner{
-
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-icon{
+  display: block;
+  margin: 10px 0;
 }
 .inner a{
   color: #ffffff;
-  background-color: cadetblue;
+  background-color: #6ba7eb;
   font-size: 12px;
   padding: 12px 14px;
+  float: right;
 }
 
 
@@ -34,19 +43,16 @@ li{
   background-repeat: no-repeat;
   text-align: center;
 }
-
 .container{
   margin: 400px 0;
   padding: 0 10px;
   margin: 0 auto;
 }
-
 .container h1{
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
 }
-
 .container p{
   font-size: 40px;
   font-weight: 700;
