@@ -81,7 +81,7 @@ li{
   padding-top: 50px;
 }
 .pc-img{
-  flex-grow: 4;
+  flex: 4;
 }
 .pc-img img{
   display: block;
@@ -89,7 +89,7 @@ li{
 }
 .work-right-box{
   text-align: center;
-  flex-grow: 6;
+  flex: 6;
 }
 .work-headline{
   margin: 20px 0px 35px 0px;
@@ -101,4 +101,15 @@ li{
   line-height: 18px;
   word-break: break-all;
 }
+/* skilsの編集 */
+.skils{
+  background-color: #fff;
+  margin: 0 auto;
+}
+.skils-headline{
+  margin-top: 50px;
 
+}
+.skils-inner{
+
+}
