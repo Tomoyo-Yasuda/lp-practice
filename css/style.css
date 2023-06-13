@@ -1,1 +1,14 @@
 @charset "utf-8";
+.body{
+  margin: 0 auto;
+}
+/* PCの横幅設定 */
+.inner{
+  width: 1100px;
+}
+/* トップの編集 */
+.top-inner{
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  padding: 400px 0px 400px 0px;
+  background-size: cover;
+}
