@@ -5,12 +5,13 @@
 /* PCの横幅設定 */
 .inner{
   width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 a{
   text-decoration: none;
 }
-
 li{
   list-style: none;
 }
@@ -26,18 +27,17 @@ li{
   display: block;
   margin: 10px 0;
 }
-.inner a{
+.header-text{
   color: #ffffff;
   background-color: #6ba7eb;
   font-size: 12px;
   padding: 12px 14px;
   float: right;
 }
-.inner a:hover{
+.header-text:hover{
   color: #333;
   transition: 0.3s;
 }
-
 
 /* トップの編集 */
 .top-inner{
@@ -52,19 +52,53 @@ li{
 .top-inner:hover{
   background-blend-mode:normal;
 }
-.container{
+.top-container{
   margin: 400px 0;
   padding: 0 10px;
   margin: 0 auto;
 }
-.container h1{
+.top-headline{
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
 }
-.container p{
+.top-container p{
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 30px;
 }
+
+/* workの部分があるところ */
+.work{
+  background-color: #e3f2fd;
+}
+.work-inner{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.pc-img{
+  flex-grow: 4;
+}
+.pc-img img{
+  display: block;
+  width: 250px;
+}
+.work-right-box{
+  text-align: center;
+  flex-grow: 6;
+}
+.work-headline{
+  margin: 20px 0px 35px 0px;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+.work-text{
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
