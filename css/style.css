@@ -104,6 +104,7 @@ li{
 .skills-inner{
  margin: 0 auto;
  justify-content: center;
+ padding-bottom: 70px;
 }
 .skills-line{
   margin: 50px 50px;
@@ -113,12 +114,29 @@ li{
   display: flex;
   flex-wrap: wrap;
   margin: -50px;
-
+  justify-content: center;
 }
 .skils-container img{
   width: 300px;
   height: 300px;
-  /* flex: 0 0 calc(33.33% - 20px); */
   margin: 50px;
-
+}
+.skils-container img:nth-child(3n+1){
+  margin-left: 0;
+}
+.skils-container img:nth-child(3n){
+  margin-right: 0;
+}
+/* plan編集 */
+.plan{
+  background-color: #d0dfea;
+  padding-top: 50px;
+}
+.plan-inner{
+  margin: 0 auto;
+  justify-content: center;
+}
+.plan-line{
+  text-align: center;
+  padding-bottom: 50px;
 }
