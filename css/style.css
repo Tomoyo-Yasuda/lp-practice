@@ -130,12 +130,11 @@ li{
 /* plan編集 */
 .plan{
   background-color: #d0dfea;
-  padding-top: 50px;
+  padding:50px 0px;
 }
 .plan-inner{
   margin: 0 auto;
   justify-content: center;
-  /* margin: 50px 0px; */
 }
 .plan-line{
   text-align: center;
