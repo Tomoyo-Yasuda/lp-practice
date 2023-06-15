@@ -165,3 +165,34 @@ tr:nth-child(even){
 tbody tr:last-child{
   border-top: #ffffff double 1px;
 }
+.sns{
+  background-color: #e3f2fd;
+  padding: 200px 0px;
+}
+.sns-inner{
+  margin: 0 auto;
+  text-align: center;
+}
+.fab {
+  width: 185px;
+  color: #858585;
+  overflow: hidden;
+  font-size: 40px;
+  padding: 25px 0px;
+}
+.fab:hover{
+  transition: 0.5s;
+  background-color: #fff;
+}
+footer{
+  background-color: #cfd8dc;
+}
+.footer-inner{
+  padding: 20px 0px 25px 0px;
+  margin: 0 auto;
+  text-align: right;
+}
+.copyright{
+  font-size: 10px;
+  letter-spacing: 0,5px;
+}
