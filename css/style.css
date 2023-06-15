@@ -135,6 +135,7 @@ li{
 .plan-inner{
   margin: 0 auto;
   justify-content: center;
+  /* margin: 50px 0px; */
 }
 .plan-line{
   text-align: center;
